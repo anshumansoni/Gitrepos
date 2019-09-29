@@ -81,7 +81,7 @@ ArrayList<GithubRepository> ar=new ArrayList();
         UserName= getIntent().getStringExtra("Username");
         for(int j=1;j<=10;j++)
         fetchdata();
-        Toast.makeText(this, "", Toast.LENGTH_SHORT).show();
+
 }
     @SuppressLint("NewApi")
 public void fetchdata()
