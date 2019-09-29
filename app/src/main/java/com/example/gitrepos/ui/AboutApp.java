@@ -79,7 +79,7 @@ public class AboutApp extends AppCompatActivity {
         try {
             getApplicationContext().getPackageManager().getPackageInfo("com.twitter.android", 0);
             launchTwitter = new Intent(Intent.ACTION_VIEW, Uri.parse(profileUrl));
-            startActivity(launchTwitter);
+            //startActivity(launchTwitter);
         }
         catch (Exception twitterHandler) {
             Toast.makeText(this, "Twitter app not found, Opening in Browser", Toast.LENGTH_SHORT).show();
