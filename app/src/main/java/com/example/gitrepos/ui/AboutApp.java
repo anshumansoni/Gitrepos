@@ -90,7 +90,7 @@ public class AboutApp extends AppCompatActivity {
 
     private void openGithub() {
 
-        String repoUrl = "https://github.com/pritanshchandra/GitRepo";
+        String repoUrl = "https://github.com/anshumansoni/GitRepos";
         Intent openGithub = new Intent(Intent.ACTION_VIEW);
         openGithub.setData(Uri.parse(repoUrl));
         startActivity(openGithub);
