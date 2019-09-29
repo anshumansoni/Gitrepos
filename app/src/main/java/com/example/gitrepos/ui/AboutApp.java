@@ -84,7 +84,7 @@ public class AboutApp extends AppCompatActivity {
         catch (Exception twitterHandler) {
             Toast.makeText(this, "Twitter app not found, Opening in Browser", Toast.LENGTH_SHORT).show();
             launchTwitter = new Intent(Intent.ACTION_VIEW, Uri.parse(profileUrl));
-            startActivity(launchTwitter);
+            //startActivity(launchTwitter);
         }
     }
 
