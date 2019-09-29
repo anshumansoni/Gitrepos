@@ -74,7 +74,7 @@ public class AboutApp extends AppCompatActivity {
 
     private void openTwitter()  {
 
-        String profileUrl = "https://twitter.com/chandrapritansh";
+        String profileUrl = "https://twitter.com/anshumansoni";
         Intent launchTwitter;
         try {
             getApplicationContext().getPackageManager().getPackageInfo("com.twitter.android", 0);
